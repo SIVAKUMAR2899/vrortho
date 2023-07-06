@@ -4,7 +4,7 @@ const morgan =require("morgan");
 const router = require('./routes/routes')
 const bodyParser =require("body-parser");
 
-const config = require('../vr/models/index');
+const config = require('../vrortho/config/dbconfig');
 
 const PORT = process.env.PORT || 5000
 

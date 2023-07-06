@@ -1,11 +1,11 @@
 var mysql = require('mysql');
 
 module.exports = {
-    HOST :"recinfotech.com",
-    DB:"recinfotceh_vrortho",
-    USER:"recinfotceh_vrortho",
-    PASSWORD:"recinfotech$ortho",
-    dialect:"mysql",
+    HOST :"babar.db.elephantsql.com",
+    DB:"fqwatydn",
+    USER:"fqwatydn",
+    PASSWORD:"NEMg8dzCTHWP5jUW7U3LBuAMofZdslOH",
+    dialect:"postgres",
 
     pool:{
         max: 10,
