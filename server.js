@@ -4,7 +4,7 @@ const morgan =require("morgan");
 const router = require('./routes/routes')
 const bodyParser =require("body-parser");
 
-const config = require('../vrortho/config/dbconfig');
+const config = require('../vrortho/models/index');
 
 const PORT = process.env.PORT || 5000
 
